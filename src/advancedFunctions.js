@@ -15,6 +15,7 @@ function sumTill(n){
 
 console.log(sumTill(5)); //15
 
+//input data
 let data = [
     { id: 'animals', parent: null },
     { id: 'mammals', parent: 'animals' },
@@ -43,6 +44,7 @@ console.log(
     )
 )
 
+//output example data
 let reutrn = {
     animals: {
         mammals: {
